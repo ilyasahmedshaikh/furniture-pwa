@@ -5,13 +5,15 @@ import { ProductRoutingModule } from './product-routing.module';
 import { ProductListingComponent } from './product-listing/product-listing.component';
 import { ProductAddEditComponent } from './product-add-edit/product-add-edit.component';
 import { ProductDetailComponent } from './product-detail/product-detail.component';
+import { ProductComponent } from './product.component';
 
 
 @NgModule({
   declarations: [
     ProductListingComponent,
     ProductAddEditComponent,
-    ProductDetailComponent
+    ProductDetailComponent,
+    ProductComponent
   ],
   imports: [
     CommonModule,
