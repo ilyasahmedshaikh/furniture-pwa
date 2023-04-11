@@ -1,0 +1,12 @@
+@import '/src/styles.scss';
+
+.rating {
+    span {
+        font-size: 13px;
+        padding-right: 2px;
+        color: #ccc;
+        &.checked {
+            color: orange;
+        }
+    }
+}

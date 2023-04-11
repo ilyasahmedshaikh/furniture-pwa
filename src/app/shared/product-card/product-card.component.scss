@@ -1,0 +1,35 @@
+@import '/src/styles.scss';
+
+.product-card {
+    .card-body {
+        .title {
+            h5 {
+                font-size: 18px;
+                color: black;
+                font-weight: 500;
+            }
+            i {
+                font-size: 22px;
+                color: #ccc;
+            }
+        }
+        p {
+            &.card-text {
+                font-size: 26px;
+                color: forestgreen;
+                font-weight: 600;
+                padding-top: 8px;
+                s {
+                    font-size: 18px;
+                    color: #898989;
+                    padding: 0 8px 0 3px;
+                    font-weight: 300;
+                }
+                span {
+                    font-size: 16px;
+                    color: forestgreen;
+                }
+            }
+        }
+    }
+}

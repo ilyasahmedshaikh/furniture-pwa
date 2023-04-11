@@ -1,0 +1,14 @@
+<div class="product-card">
+    <div class="card">
+        <img class="card-img-top" src="{{data.image}}" alt="Card image cap">
+        <div class="card-body">
+            <div class="title d-flex justify-content-between">
+                <h5>{{data.title}}</h5>
+                <a href="#"><i class="fa fa-solid fa-heart"></i></a>
+            </div>
+            <app-star-rating [stars]="5"></app-star-rating>
+            <p class="card-text">{{data.price}} <s>{{data.oldPrice}}</s> <span>{{data.discount}} OFF</span></p>
+            <a href="#" class="btn btn-primary mt-3">Add to cart</a>
+        </div>
+    </div>
+</div>

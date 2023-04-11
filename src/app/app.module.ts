@@ -9,7 +9,7 @@ import {LocationStrategy, HashLocationStrategy} from '@angular/common';
 
 import { HeaderComponent } from './layout/header/header.component';
 import { FooterComponent } from './layout/footer/footer.component';
-
+import { ProductModule } from './components/product/product.module';
 
 @NgModule({
   declarations: [
@@ -20,7 +20,8 @@ import { FooterComponent } from './layout/footer/footer.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    SharedModule
+    SharedModule,
+    ProductModule
   ],
   providers: [
     {
