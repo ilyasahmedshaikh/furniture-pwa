@@ -1,1 +1,12 @@
-<p>product-listing works!</p>
+<div class="product-listing">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-12 col-lg-12">
+                <h2>Products</h2>
+            </div>
+            <div class="col-12 col-md-4 col-lg-3 mt-2" *ngFor="let item of data">
+                <app-product-card [data]="item"></app-product-card>
+            </div>
+        </div>
+    </div>
+</div>
